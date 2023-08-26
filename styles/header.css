@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.cabecalho__menu-hamb{
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/Menu.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.cabecalho{
+    background-color: var(--branco--principal);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .container_img{
+    padding: 1em;
+  }
+
+  .lista_menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+  }
+
+  .lista-menu_link{
+    text-decoration: none ;
+    background: var(--azul--escuro);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 400;
+    
+    
+
+
+
+  }
+
+  .container_botao:checked~.lista_menu{
+    display: block;
+  }
+
+  .lista-menu__items, .lista-menu__titulo{
+    padding: 1em;
+    background-color: var(--branco--principal);
+    font-family: var(--font--principal);
+    font-size: 16px;
+  }
+
+  .lista-menu__titulo{
+    color: var(--amarelo--principal);
+    font-weight: 700;
+  }
+
+  .lista-menu__items{
+   
+  }
+
+
+
