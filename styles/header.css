@@ -39,10 +39,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     font-weight: 400;
-    
-    
-
-
 
   }
 
@@ -58,13 +54,11 @@
   }
 
   .lista-menu__titulo{
-    color: var(--amarelo--principal);
+    color: var(--rosa--secundario);
     font-weight: 700;
   }
-
-  .lista-menu__items{
-   
-  }
-
+.container_botao{
+  display: none;
+}
 
 

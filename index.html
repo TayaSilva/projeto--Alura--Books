@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,29 +27,49 @@
 
 
             </ul>
-            <img src="./assets/Logo (1).svg" alt="Logo Alura" class="container_img">
+            <img src="./assets/education_6186636.png" alt="Logo Alura" class="container_img_logo">
         </div>
         <div class="container">
             <a href="#"><img src="./assets/Favoritos (1).svg" alt="Icone Favoritos" class="container_img"></a>
             <a href="#"><img src="./assets/Compras (1).svg" alt="Icone de compras" class="container_img"></a>
             <a href="#"><img src="./assets/Usuário.svg" alt="Icone Usuário" class="container_img"></a>
         </div>
-
-
-        
     </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Já sabe por onde começar?</h2>
+        <p class="banner_texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">últimos lançamentos</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./assets/Construct2.svg" alt="Livros alura Construct2"></div>
+              <div class="swiper-slide"><img src="./assets/UX.svg" alt="livro alura UX"></div>
+              <div class="swiper-slide"><img src="./assets/Tuning.svg" alt="livro alura Tuning"></div>
+              <div class="swiper-slide"><img src="./assets/Gestão2.svg" alt="livro alura gestão"></div>
+              <div class="swiper-slide"><img src="./assets/Portugol (1).svg" alt="livro alura Portugol"></div>
+              
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+    </section>
 
 
 
 
-
-
-
-
-
-    <footer>
-
-    </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
-</html>
+</html> <meta>
