@@ -1,6 +1,9 @@
 @import url(./styles/header.css);
 @import url(./styles/banner.css);
 @import url(./styles/carrossel.css);
+@import url(./styles/topicos.css);
+@import url(./styles/cadastrese.css);
+@import url(./styles/rodape.css);
 
 
 
@@ -10,8 +13,10 @@
     --rosa--principal: #f4acb7;
     --branco--principal:#FFFFFF;
     --rosa--secundario: #fb6f92;
+    --azul: #002f52;
     --font--principal: 'Poppins';
     --azul--escuro: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    
 
 }
 
