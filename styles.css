@@ -7,6 +7,7 @@
 
 
 
+
 :root{
 
     --cor--de--fundo: #ffe5d9;
@@ -16,7 +17,9 @@
     --azul: #002f52;
     --font--principal: 'Poppins';
     --azul--escuro: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    
+    --font--secundaria: 'Josefin Sans';
+    --preto: #000000;
+    --cinza: #858585
 
 }
 
